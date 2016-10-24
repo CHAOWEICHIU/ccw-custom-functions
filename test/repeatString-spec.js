@@ -1,10 +1,10 @@
 const expect = require('chai').expect
 
 function repeatStringNumTimes(str, num) {
-  let result = ''
+  var result = ''
   if(num < 0) return result
 
-  for(let i = 0; i < num; i++){
+  for(var i = 0; i < num; i++){
   		result += str	
   }
   return result
