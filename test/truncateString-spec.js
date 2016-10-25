@@ -8,7 +8,6 @@ function truncateString(str, num) {
 	if(str.length < num) return str
   	var cutIndex = num < 3 ? num : num - 3
   
-  	console.log(str.length)
   	var result = str.substring(0, cutIndex)
   
   return result + '...'
@@ -29,3 +28,5 @@ describe('truncateString()', ()=>{
 		expect(truncateString("A-", 1)).to.equal('A...')
 	})
 })
+
+
