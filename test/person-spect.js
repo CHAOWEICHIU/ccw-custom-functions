@@ -1,44 +1,58 @@
 const expect = require('chai').expect
-	, Person = require('../lib/person').personConstructor
-	, Student = require('../lib/person').studentConstructor
-
+	, Person = require('../lib/Person').personConstructor
+	, Student = require('../lib/Person').studentConstructor
 
 describe('Person', ()=>{
-	let cw;
+	let ting,info;
 	before(()=>{
-		cw = new Person('cw', 22)
+		info = { name : 'ting', age: 22, gender: 'F'}
+		ting = new Person(info)
 	})
 
-	it('.age', ()=>{
-		expect(cw.age).to.equal(22)
+	it('.name return name', ()=>{
+		expect(ting.name).to.equal('ting')
 	})
-	it('.name', ()=>{
-		expect(cw.name).to.equal('cw')
+	it('.age return age', ()=>{
+		expect(ting.age).to.equal(22)
 	})
-	it('greet()', ()=>{
-		expect(cw.greet()).to.equal('Hello, I am cw')
+	it('.gender', ()=>{
+		expect(ting.gender).to.equal('F')
 	})
 })
 
 describe('Student', ()=>{
-	let ken;
+	let ken, info;
 	before(()=>{
-		ken = new Student('ken', 30)
+		info = {name:'ken', age:29, gender:'M'}
+		ken = new Student(info)
 	})
-
 	it('.name', ()=>{
 		expect(ken.name).to.equal('ken')
 	})
 	it('.age', ()=>{
-		expect(ken.age).to.equal(30)	
+		expect(ken.age).to.equal(29)
+	})
+	it('.gender', ()=>{
+		expect(ken.gender).to.equal('M')
 	})
 	it('.job', ()=>{
 		expect(ken.job).to.equal('student')
 	})
-	it('.greet()', ()=>{
-		expect(ken.greet()).to.equal('Hello, I am ken')
+	it.skip('.purchaseItems()', (done)=>{
+		let items = [
+			{name: 'apple', qty: 2},
+			{name: 'orange', qty: 2}
+		]
+		ken.purchaseItems().then((err, res)=>{
+			expect(err).to.equal(null)
+			done()
+		})
 	})
 })
+
+
+
+
 
 
 
