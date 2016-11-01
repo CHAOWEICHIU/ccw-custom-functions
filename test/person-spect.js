@@ -1,5 +1,6 @@
 const expect = require('chai').expect
 	, Person = require('../lib/person').personConstructor
+	, Student = require('../lib/person').studentConstructor
 
 
 describe('Person', ()=>{
@@ -18,3 +19,26 @@ describe('Person', ()=>{
 		expect(cw.greet()).to.equal('Hello, I am cw')
 	})
 })
+
+describe('Student', ()=>{
+	let ken;
+	before(()=>{
+		ken = new Student('ken', 30)
+	})
+
+	it('.name', ()=>{
+		expect(ken.name).to.equal('ken')
+	})
+	it('.age', ()=>{
+		expect(ken.age).to.equal(30)	
+	})
+	it('.job', ()=>{
+		expect(ken.job).to.equal('student')
+	})
+	it('.greet()', ()=>{
+		expect(ken.greet()).to.equal('Hello, I am ken')
+	})
+})
+
+
+
