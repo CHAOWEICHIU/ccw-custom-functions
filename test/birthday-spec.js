@@ -40,7 +40,7 @@ describe('when the user birthday is today', ()=>{
         stubToday = sinon.stub(ns, "today");
         stubToday.returns({month: 1, date: 14});
         
-        console.log(stubToday.sendGreeting())
+        console.log()
     })
 
 
