@@ -1,21 +1,7 @@
 const expect = require('chai').expect
+ 	, mutation = require('../../lib/custom_functions/mutation')
 
-
-function mutation(arr) {
-  var first = arr[0].toLowerCase()
-  var second = arr[1].toLowerCase().split('')
-  for(var i = 0; i < second.length; i++){
-  	if(first.indexOf(second[i])===-1)return false
-  }
-  return true
-}
-
-
-
-
-
-
-describe('slasher()', ()=>{
+describe('mutation()', ()=>{
 	it('eqation check', ()=>{
 		expect(mutation(["hello", "hey"])).to.equal(false)
 		expect(mutation(["hello", "Hello"])).to.equal(true)

@@ -17,7 +17,7 @@
     "sinon": "^1.17.6"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
