@@ -1,16 +1,6 @@
 const expect = require('chai').expect
 
-function destroyer(arr, arg1, arg2, arg3) {
-  
-  return arr.filter(function(num){
-  	return num !== arg1
-  }).filter(function(num){
-  	return num !== arg2
-  }).filter(function(num){
-  	return num !== arg3
-  })
 
-}
 
 
 describe('destroyer()', ()=>{
