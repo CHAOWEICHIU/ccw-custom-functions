@@ -2,10 +2,6 @@ const expect = require('chai').expect
 	, truncateString = require('../../lib/custom_functions/truncateString')
 
 
-
-
-
-
 describe('truncateString()', ()=>{
 	it('equation check', ()=>{
 		expect(truncateString("A-tisket a-tasket A green and yellow basket", 11)).to.equal('A-tisket...')

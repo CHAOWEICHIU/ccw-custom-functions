@@ -1,21 +1,5 @@
 const expect = require('chai').expect
-
-function getIndexOfInt(arr, goal) {
-	var sortedArray = arr.sort(function(a,b){return a-b})
-	
-	if(sortedArray.indexOf(goal)!==-1)return sortedArray.indexOf(goal)
-	
-	if(sortedArray[sortedArray.length-1] < goal) return sortedArray.length
-	
-	var indexForTarget =  sortedArray.reduce(function(prev, curr){
-  		return (Math.abs(curr - goal) <= Math.abs(prev - goal) ? curr : prev)
-	})
-	return sortedArray.indexOf(indexForTarget)
-
-
-}
-
-getIndexOfInt([40, 60], 50);
+	, getIndexOfInt = require('../../lib/custom_functions/getIndexOfInt')
 
 
 describe('getIndexOfInt()', ()=>{
@@ -33,7 +17,6 @@ describe('getIndexOfInt()', ()=>{
 		expect(getIndexOfInt([2, 5, 10], 15)).to.equal(3)
 	})
 })
-
 
 
 
