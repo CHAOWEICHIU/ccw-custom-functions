@@ -3,6 +3,10 @@
 ## Why?
 As a professional programmer, there are cases that would build your own custom functions to handle certain situation across different projects. We want our custom function to act the way we expected to act. Therefore, I have written tests to back it up. Feel free to write more test to make it fail!!!! 
 
+## TEST ! 
+- npm test
+- In order to show the evidence, please write your own test as well to see if those custom functions would act the way that you expect to do. ^_^ 
+
 ## Functions
 
 - toTitleCase()
