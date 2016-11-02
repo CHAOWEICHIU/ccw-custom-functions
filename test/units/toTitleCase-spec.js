@@ -1,10 +1,5 @@
-var expect = require('chai').expect
-function toTitleCase(input){
-	return input
-			.split(' ')
-			.map(i => i[0].toUpperCase() + i.substring(1).toLowerCase())
-			.join(' ') 
-}
+const expect = require('chai').expect
+	, toTitleCase = require('../../lib/custom_functions/toTitleCase')
 
 
 describe('custom functions', ()=>{
