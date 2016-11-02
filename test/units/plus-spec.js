@@ -1,12 +1,5 @@
-const expect = require('chai').expect;
-
-function plus(){
-	let sum = 0
-	for(var i = 0; i < arguments.length; i ++){
-		sum += arguments[i]
-	}
-	return sum
-}
+const expect = require('chai').expect
+	, plus = require('../../lib/custom_functions/plus')
 
 describe('plus()', ()=>{
 	it('with 2 arguments', ()=>{

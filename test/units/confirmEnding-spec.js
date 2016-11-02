@@ -18,5 +18,4 @@ describe('confirmEnding', ()=>{
 		expect(confirmEnding("Open sesame", "pen")).to.equal(false)
 		expect(confirmEnding("If you want to save our world, you must hurry. We dont know how much longer we can withstand the nothing", "mountain")).to.equal(false)
 	})
-	
 })
