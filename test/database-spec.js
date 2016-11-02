@@ -51,8 +51,26 @@ describe('Databse', ()=>{
 			done()
 		})
 	})
-
 	
+	it('.outboundItem() return successful message', (done)=>{
+		Database.outboundItem(path, item, (err, res)=>{
+			expect(res).to.equal('outbound item successfully')
+			done()
+		})
+	})
 
-	it('.outboundItem()')
+	it('.outboundItem() return error if after outbound is less than 0', ()=>{
+		item.qty = 50
+		Database.outboundItem(path, item, (err, res)=>{
+			expect(err).to.equal('not enough qty in warehouse')
+		})
+	})
+
 })
+
+
+
+
+
+
+
