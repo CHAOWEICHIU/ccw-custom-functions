@@ -81,5 +81,13 @@ As a professional programmer, there are cases that would build your own custom f
 
  - ["hello", "hey"] -> false
 
+- validZipcode()
+
+ - (48326) -> true
+
+ - (a4104) -> false
+
+ - (12s) -> false
+
 
 
