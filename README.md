@@ -17,15 +17,6 @@ The benefit?
 
 5. app can be scale horizontally 
 
-## Functional programming libraries
-
-- [underscore](http://underscorejs.org/)
-
-- [lodash](https://lodash.com/)
-
-- [ramda](http://ramdajs.com/)
-
-
 Why?
 
 functional programming is 
@@ -35,6 +26,14 @@ functional programming is
 2. pure 
 
 3. no side effect
+
+## Functional programming libraries
+
+- [underscore](http://underscorejs.org/)
+
+- [lodash](https://lodash.com/)
+
+- [ramda](http://ramdajs.com/)
 
 
 ## TEST ! 
