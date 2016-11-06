@@ -17,6 +17,16 @@ The benefit?
 
 5. app can be scale horizontally 
 
+Why?
+
+functional programming is 
+
+1. stateless
+
+2. pure 
+
+3. no side effect
+
 
 ## TEST ! 
 - npm test
