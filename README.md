@@ -33,6 +33,34 @@ As a professional programmer, there are cases that would build your own custom f
 
 - [ramda](http://ramdajs.com/)
 
+## Build-in javascript verbs
+
+- slice()
+
+ - Remove items
+ 
+ - [1,2,3].slice(1, 2) -> [2]
+
+- concat()
+
+ - Combine things together
+
+ - [1,2].concat.([3,4]) -> [1,2,3,4]
+
+- map()
+
+ - Transform each item
+
+ - [1,2].map((num)=>num*num) -> [1,4]
+
+- filter()
+
+ - Remove items
+
+ - [1,2,3,4].filter((num)=>num%2===0) -> [2,4]
+
+ - ['apple pei','apple cider','apple-pei','not show'].filter((item)=>/apple/i.test(item)) -> ['apple pei','apple cider','apple-pei']
+
 
 ## TEST ! 
 - npm test
