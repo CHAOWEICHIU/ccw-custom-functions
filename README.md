@@ -3,6 +3,21 @@
 ## Why?
 As a professional programmer, there are cases that would build your own custom functions to handle certain situation across different projects. We want our custom function to act the way we expected to act. Therefore, I have written tests to back it up. Feel free to write more test to make it fail!!!! 
 
+## functional programming style
+ 
+The benefit?
+
+1. resuseble
+
+2. easy to maintain
+
+3. east to test
+
+4. simple mental model
+
+5. app can be scale horizontally 
+
+
 ## TEST ! 
 - npm test
 - In order to show the evidence, please write your own test as well to see if those custom functions would act the way that you expect to do. ^_^ 
