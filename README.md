@@ -89,5 +89,10 @@ As a professional programmer, there are cases that would build your own custom f
 
  - (12s) -> false
 
+- zip()
+
+ - ([1,2,3], [2,3]) -> [1,2,3,2,3]
+
+ - (['a',2,3], [2,'3', false]) -> ['a',2,3,2,'3',false]
 
 
