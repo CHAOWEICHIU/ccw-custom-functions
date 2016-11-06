@@ -68,6 +68,12 @@ As a professional programmer, there are cases that would build your own custom f
 
 ## Functions
 
+- splitArrayEvery()
+
+ - (2, [1,2,3,4]) -> [[1,2],[3,4]]
+
+ - (3, [1,2,3,4]) -> [[1,2,3],[4]]
+
 - toTitleCase()
 
   - "how are you" -> "How Are You"
