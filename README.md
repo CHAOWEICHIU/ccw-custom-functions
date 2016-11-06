@@ -5,7 +5,7 @@ As a professional programmer, there are cases that would build your own custom f
 
 ## functional programming style
  
-**enefit?**
+**Benefit?**
 
 1. resuseble
 
