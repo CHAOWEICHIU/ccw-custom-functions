@@ -5,7 +5,7 @@ As a professional programmer, there are cases that would build your own custom f
 
 ## functional programming style
  
-The benefit?
+**enefit?**
 
 1. resuseble
 
@@ -17,9 +17,7 @@ The benefit?
 
 5. app can be scale horizontally 
 
-Why?
-
-functional programming is 
+**Why?**
 
 1. stateless
 
