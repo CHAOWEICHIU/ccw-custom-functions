@@ -68,6 +68,10 @@ As a professional programmer, there are cases that would build your own custom f
 
 ## Functions
 
+- compose()
+
+ - see how you can use this magic at /test/units/composeExample-spec.js
+
 - splitArrayEvery()
 
  - (2, [1,2,3,4]) -> [[1,2],[3,4]]
