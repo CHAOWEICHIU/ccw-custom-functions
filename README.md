@@ -102,9 +102,11 @@ As a professional programmer, there are cases that would build your own custom f
  
  - ("@#", 3) -> "@#@#@#"
 
-- filterWords()
+- removeCurseWords()
 
- - ('this is a test of rock', ['is', 'a', 'of']) -> 'this test rock'
+ - ('I fucking love you') -> 'I love you'
+
+ - this is a curry version of filter, please see /tests/units/filterWords-curry-spec.js for how you can use this
 
 - palindrome()
 
