@@ -102,6 +102,10 @@ As a professional programmer, there are cases that would build your own custom f
  
  - ("@#", 3) -> "@#@#@#"
 
+- filterWords()
+
+ - ('this is a test of rock', ['is', 'a', 'of']) -> 'this test rock'
+
 - palindrome()
 
  - "eye" -> true
