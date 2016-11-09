@@ -68,6 +68,14 @@ As a professional programmer, there are cases that would build your own custom f
 
 ## Functions
 
+- decimalPlaces()
+
+ - decimalPlaces('.05') -> 2
+
+ - decimalPlaces('25e-100') -> 100
+
+ - decimalPlaces('100') -> 0
+
 - compose()
 
  - see how you can use this magic at /test/units/composeExample-spec.js
