@@ -56,15 +56,20 @@ var getGenderOf 	= _.curry((att, students)=>students.filter(student=>student.gen
 
 
 describe('students', ()=>{
-	it.skip('show specific things', ()=>{
+	it('show specific things', ()=>{
 		whenDataLoaded
 			.then(getGenderOf('F'))
-			.then(addAllowance(1000))
+			.then(addAllowance(5000))
 			.then(removeObjKeyOf('gender'))
-			.then(addAge(10))
-			.then(getAgeOver(30))
+			.then(removeObjKeyOf('department'))
+			.then(removeObjKeyOf('age'))
+			.then(removeObjKeyOf('salary'))
 			.then((result)=>{
-				console.log(result)
+				let output = [ 
+					{ name: 'Ting', allowance: 9000 },
+  					{ name: 'Linda', allowance: 8000 } 
+  				]
+				expect(result).to.eql(output)
 			})
 	})
 	it('show decemal points for array', ()=>{
@@ -83,16 +88,8 @@ describe('students', ()=>{
 			.then(showDecimalsPoint('3'))
 			.then((result)=>{
 				expect(decimalPlaces(result)).to.equal(3)
-				
 			})	
 	})
-	// true
-
-			// .then(getDepartmentOf('IT'))
-			// .then(getAgeOver(33))
-			// .then(selectObjKeyOf('salary'))
-			// .then(priceMethod('average'))
-			// .then(showDecimalsPoint(0))
 })
 
 
