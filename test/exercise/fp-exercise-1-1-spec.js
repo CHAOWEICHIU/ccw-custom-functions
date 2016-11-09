@@ -1,6 +1,7 @@
 const expect = require('chai').expect
 	, Promise = require('bluebird')
 	, _ = require('lodash')
+	, decimalPlaces = require('../../lib/custom_functions/decimalPlaces')
 
 var whenDataLoaded = new Promise((resolve, reject)=>{
 	let students = [
@@ -55,7 +56,7 @@ var getGenderOf 	= _.curry((att, students)=>students.filter(student=>student.gen
 
 
 describe('students', ()=>{
-	it.skip('show specific things', (done)=>{
+	it.skip('show specific things', ()=>{
 		whenDataLoaded
 			.then(getGenderOf('F'))
 			.then(addAllowance(1000))
@@ -64,21 +65,27 @@ describe('students', ()=>{
 			.then(getAgeOver(30))
 			.then((result)=>{
 				console.log(result)
-				done()
 			})
 	})
-	it('show decemal points for array', (done)=>{
+	it('show decemal points for array', ()=>{
 		whenDataLoaded
 			.then(getDepartmentOf('IT'))
-			.then(getAgeOver(33))
 			.then(selectObjKeyOf('salary'))
 			.then((result)=>{
-				console.log()
-				console.log(result)
-				done()
+				expect(decimalPlaces(result[0])).to.equal(2)
 			})
 	})
-	it('show decemal points for number')
+	it('show decemal points for number', ()=>{
+		whenDataLoaded
+			.then(getDepartmentOf('sales'))
+			.then(selectObjKeyOf('salary'))
+			.then(priceMethod('sum'))
+			.then(showDecimalsPoint('3'))
+			.then((result)=>{
+				expect(decimalPlaces(result)).to.equal(3)
+				
+			})	
+	})
 	// true
 
 			// .then(getDepartmentOf('IT'))
