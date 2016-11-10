@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-	, filterWords = require('../../lib/custom_functions/filterWords')
+	, filterWords = require('../../lib/custom_functions/filterWords-curry')
 	, _ = require('lodash')
 
 let curriedFilterWords = _.curry(filterWords)
