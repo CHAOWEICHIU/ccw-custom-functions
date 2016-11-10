@@ -86,6 +86,16 @@ As a professional programmer, there are cases that would build your own custom f
 
  - (3, [1,2,3,4]) -> [[1,2,3],[4]]
 
+- tempConverterAPI.value('Integer').from('Fahrenheit').to('Celsius').done()
+
+ - tempConverterAPI.value(65).from('Fahrenheit').to('Celsius').done() -> 18
+
+ - tempConverterAPI.value(65).from('F').to('C').done() -> 18
+
+ - tempConverterAPI.value(271).from('Kelvin').to('Fahrenheit').done() -> 18
+
+ - tempConverterAPI.value(271).from('K').to('F').done() -> 18
+
 - toTitleCase()
 
   - "how are you" -> "How Are You"

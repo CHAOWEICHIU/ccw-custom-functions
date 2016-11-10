@@ -67,4 +67,9 @@ describe('Pure Bank',()=>{
 // 
 // This is like you would get a history of your bank 
 // account at the end of each month
+// 
 // ----------------------------------------------------
+
+
+
+// source: https://github.com/ChetHarrison/A-Gentle-Introduction-to-Functional-JavaScript
