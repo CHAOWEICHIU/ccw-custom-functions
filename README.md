@@ -117,13 +117,13 @@ getIndexOfInt(input, target) === output
 ```
 
 ```javascript
-getIndexOfInt([10, 20, 30, 40, 50], 30)) 			// return 2
-getIndexOfInt([2, 20, 10]          , 19)    		// return 2
+getIndexOfInt([10, 20, 30, 40, 50],  30) // return 2
+getIndexOfInt([2, 20, 10]          , 19) // return 2
 // Will Sort the Array, 
 // then find the index of target
-getIndexOfInt([40, 60]			   , 50)    		// return 1
+getIndexOfInt([40, 60]			   , 50) // return 1
 // will favor bigger number
-getIndexOfInt([2, 5, 10]           , 15)) 			// return 3
+getIndexOfInt([2, 5, 10]           , 15) // return 3
 // will return (Array.length + 1) 
 // if target is bigger than any number in array
 
