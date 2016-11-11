@@ -308,4 +308,42 @@ zip([1,2,3], ['4','5']) // return [1,2,3,'4','5']
 ```
 ------------------------------------------
 
+## About me
+
+> I am a freelance full-stack web developer, and I get so 
+excited whenever there is a chance that I can challenge
+myself and become a better software developer.
+
+> Test Nerd
+Few months age, I have exposed to TDD(test-driven development) way
+of writing a software. Since then, I have fallen in love with that.
+I was inspired by [MPJ](https://www.youtube.com/watch?v=TWBDa5dqrl8)
+and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
+
+> Extra
+[Declarative Style](https://github.com/CHAOWEICHIU/functional-javascript)
+:thumbsup: Code that can be repeatedly used with little effort
+:thumbsup: Code that can be tested easily
+:thumbsup: Code that can express themself
+
+```javascript
+var fruits = [
+	{ name: 'apple',  price: 5 }, 
+	{ name: 'orange', price: 10 }, 
+	{ name: 'lemon',  price: 15 }
+]
+```
+```javascript
+request('magicURL')
+	.then(selectKeyOf('price'))
+	.then(priceMethod('sum'))
+	.then((result)=>{
+		console.log(result) // 30
+	})
+```
+
+
+
+
+
 
