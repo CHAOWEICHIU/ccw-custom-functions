@@ -13,9 +13,9 @@ decimalPlaces( )
 ```
 
 ```javascript
-decimalPlaces('.05') -> 2
-decimalPlaces('25e-100') -> 100
-decimalPlaces('100') -> 0
+decimalPlaces('.05') 	  // return 2
+decimalPlaces('25e-100')  // return 100
+decimalPlaces('100') 	  // 0
 ```
 
 - compose()
