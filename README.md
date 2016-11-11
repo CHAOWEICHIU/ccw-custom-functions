@@ -15,7 +15,6 @@
 // You can put either String or Integer
 var input  = 5.5
   , output = 1
-  
 decimalPlaces( input ) === output
 ```
 
@@ -31,7 +30,9 @@ decimalPlaces('25e-100')  // return 100
 > **Make String A Title Case String**
 
 ```javascript
-toTitleCase( )
+var input  = 'good monday morning'
+  , output = 'Good Monday Morning'
+toTitleCase( input ) === output
 ```
 
 ```javascript
