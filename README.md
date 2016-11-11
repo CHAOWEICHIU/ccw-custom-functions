@@ -77,7 +77,7 @@ palindrome('A man, a plan, a canal. Panama')  	// true
 ------------------------------------------
 
 
-> **Cutting Off Targeting String and Replace With ...**
+> **Cutting Off String and Replace With ...**
 
 ```javascript
 var input  = 'I have a lot to say!' 
@@ -93,38 +93,63 @@ truncateString("how are you", 5) // return how a ...
 ------------------------------------------
 
 
-> Get Decimal Point
+
+
+ ('I fucking love you') -> 'I love you'
+
+ 
+
+
+
+
+> **Remove Curse Words**
 
 ```javascript
-
+var input  = 'I fucking love you'
+  , output = 'I love you'
+removeCurseWords( input ) === output
 ```
 
 ```javascript
-
-
-```
-------------------------------------------
-
-> Get Decimal Point
-
-```javascript
-
-```
-
-```javascript
-
-
+removeCurseWords('fuck you') // return 'you'
 ```
 ------------------------------------------
 
 
 
 
-- removeCurseWords()
+> Get Index Of The Interger
 
- - ('I fucking love you') -> 'I love you'
+```javascript
+var input  = [10, 20, 30, 40, 50]
+  , target = 20
+  , output = 1
+getIndexOfInt(input, target) === output
+```
 
- - this is a curry version of filter, please see /tests/units/filterWords-curry-spec.js for how you can use this
+```javascript
+getIndexOfInt([10, 20, 30, 40, 50], 30)) // return 2
+getIndexOfInt([2, 20, 10], 19) // return 2
+// Will sort the Array first, then find the index of target
+getIndexOfInt([40, 60], 50)
+// will return bigger number if the distance from two number are the same
+getIndexOfInt([2, 5, 10]          , 15)) // return 3
+// will return Array.length + 1 if target is bigger than any number in array
+
+```
+------------------------------------------
+
+- 
+ 
+ - () -> 2
+
+ - () -> 3
+
+ - ([40, 60], 50)) -> 1
+
+
+
+
 
 
 
@@ -187,13 +212,6 @@ truncateString("how are you", 5) // return how a ...
 
 
 
-- getIndexOfInt()
- 
- - ([10, 20, 30, 40, 50], 30)) -> 2
-
- - ([2, 5, 10], 15)) -> 3
-
- - ([40, 60], 50)) -> 1
 
 - falsyRemover()
 

@@ -16,6 +16,9 @@ describe('getIndexOfInt()', ()=>{
 	it('(4) goal is bigger than any number in array', ()=>{
 		expect(getIndexOfInt([2, 5, 10], 15)).to.equal(3)
 	})
+	it.only('(5)', ()=>{
+		console.log(getIndexOfInt([40, 60], 59))
+	})
 })
 
 
