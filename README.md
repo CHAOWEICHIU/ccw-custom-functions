@@ -17,7 +17,7 @@ place!!
 npm test
 ```
 
-> Found Issue?  chaoweichiu@gmail.com
+> Found Issue/Need my help?  chaoweichiu@gmail.com
 
 
 ## DEMO
