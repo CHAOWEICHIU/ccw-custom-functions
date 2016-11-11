@@ -38,11 +38,11 @@ toTitleCase('hoW aRe yOU') // return 'How Are You'
 ------------------------------------------
 
 
-> Confirm Ending Word/Words
+> **Confirm Ending Word/Words**
 
 ```javascript
 // case sensitive
-confirmEnding('Checking String','Confirming Word/Words')
+confirmEnding(Checking String,Confirming Word/Words)
 ```
 
 ```javascript
@@ -50,7 +50,7 @@ confirmEnding("Good morning", "g")   // return true
 confirmEnding("Open sesame", "same") // return true
 confirmEnding("Open sesame", "Sama") // return false
 ```
-
+------------------------------------------
 
 
 > Get Decimal Point
