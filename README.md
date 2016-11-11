@@ -9,8 +9,9 @@
 ## Functions
 
 ```javascript
-
-decimalPlaces( ) // You can put either String or Integer
+// Get Decimal Point
+// You can put either String or Integer
+decimalPlaces( ) 
 ```
 
 ```javascript
