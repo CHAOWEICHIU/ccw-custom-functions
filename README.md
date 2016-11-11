@@ -27,7 +27,7 @@ decimalPlaces('25e-100')  // return 100
 ------------------------------------------
 
 
-> **Make String A Title Case String**
+> **Make The String A Title Case String**
 
 ```javascript
 var input  = 'good monday morning'
@@ -46,7 +46,10 @@ toTitleCase('hoW aRe yOU') // return 'How Are You'
 
 ```javascript
 // case sensitive
-confirmEnding(Checking String,Confirming Word/Words)
+var confirmingString  = 'ABCDE'
+  , confirmingWords   = 'DE'
+  , output = true
+confirmEnding(confirmingString,confirmingWords) === output
 ```
 
 ```javascript
