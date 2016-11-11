@@ -328,8 +328,8 @@ and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 ------------------------------------------
 ## Extra
 
-> [Declarative Style](https://github.com/CHAOWEICHIU/functional-javascript)
-	
+> [Declarative Style Demo](https://github.com/CHAOWEICHIU/functional-javascript)
+
 :thumbsup: Code that can be repeatedly used with little effort
 
 :thumbsup: Code that can be tested easily
@@ -351,9 +351,4 @@ request('magicURL')
 		console.log(result) // 30
 	})
 ```
-
-
-
-
-
-
+------------------------------------------
