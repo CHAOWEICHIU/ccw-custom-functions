@@ -2,13 +2,16 @@
 
 - Why ?
 
-## TEST ! 
-- npm test
-- In order to show the evidence, please write your own test as well to see if those custom functions would act the way that you expect to do. ^_^ 
+##
 
-## Functions
+> **TEST?**
+
+```
+npm test
+```
 
 
+## DEMO
 > **Get Decimal Point**
 
 ```javascript
@@ -295,3 +298,5 @@ zip([1,2,3], [4,5]) 	// return [1,2,3,4,5]
 zip([1,2,3], ['4','5']) // return [1,2,3,'4','5']
 ```
 ------------------------------------------
+
+
