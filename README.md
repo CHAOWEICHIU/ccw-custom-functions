@@ -15,8 +15,6 @@
 // You can put either String or Integer
 decimalPlaces( ) 
 ```
----
-
 
 ```javascript
 decimalPlaces('100') 	  // 0
@@ -24,6 +22,7 @@ decimalPlaces('.05') 	  // return 2
 decimalPlaces(.05) 	      // return 2
 decimalPlaces('25e-100')  // return 100
 ```
+------------------------------------------
 
 
 > Make String A Title Case String
@@ -36,6 +35,7 @@ toTitleCase( )
 toTitleCase('how are you') // return 'How Are You'
 toTitleCase('hoW aRe yOU') // return 'How Are You'
 ```
+------------------------------------------
 
 
 > Confirm Ending Word/Words
