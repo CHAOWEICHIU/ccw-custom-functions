@@ -1,8 +1,18 @@
-# Custom Functions Library 
+## Custom Functions Library 
 
-- Why ?
+This is a place where you can find robust functions 
+that have been tested by myself before I present to
+you. You can write your own test, and try those out 
+to see if would work the way you expected. I would 
+love to have your feedback on that.
 
-##
+Moreover, feel free to email me if you want me to 
+add more strange functions that you would like to 
+put in your project. I am happy to help you to make 
+the world a better place.
+
+> Email Me At chaoweichiu@gmail.com
+
 
 > **TEST?**
 
@@ -213,9 +223,9 @@ repeatStringNumTimes(input, times) === output
 ```
 
 ```javascript
-repeatStringNumTimes("ab", 2) //return 'abab'
-repeatStringNumTimes("@#", 3) //return '@#@#@#'
-repeatStringNumTimes("@#", 0) //return ''
+repeatStringNumTimes("ab", 2)  //return 'abab'
+repeatStringNumTimes("@#", 3)  //return '@#@#@#'
+repeatStringNumTimes("@#", 0)  //return ''
 repeatStringNumTimes("@#", -2) //return ''
 ```
 ------------------------------------------
