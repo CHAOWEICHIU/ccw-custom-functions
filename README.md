@@ -7,16 +7,20 @@
 - In order to show the evidence, please write your own test as well to see if those custom functions would act the way that you expect to do. ^_^ 
 
 ## Functions
-### decimalPlaces -> Get Decimal Point
-<Enter>
+Get Decimal Point
 ```javascript
-- decimalPlaces()
+decimalPlaces( )
+```
+### decimalPlaces -> 
 
- - decimalPlaces('.05') -> 2
+```javascript
 
- - decimalPlaces('25e-100') -> 100
 
- - decimalPlaces('100') -> 0
+decimalPlaces('.05') -> 2
+
+ decimalPlaces('25e-100') -> 100
+
+ decimalPlaces('100') -> 0
 ```
 - compose()
 
