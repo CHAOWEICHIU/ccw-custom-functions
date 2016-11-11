@@ -107,7 +107,7 @@ removeCurseWords('fuck you') // return 'you'
 ------------------------------------------
 
 
-> Get Index Of The Interger
+> **Get Index Of The Interger**
 
 ```javascript
 var input  = [10, 20, 30, 40, 50]
@@ -130,85 +130,127 @@ getIndexOfInt([2, 5, 10]           , 15) // return 3
 ```
 ------------------------------------------
 
-- 
- 
- - () -> 2
 
- - () -> 3
+> **Remove Falsy Value In Array**
 
- - ([40, 60], 50)) -> 1
+```javascript
+var input  = [false, null, 0, NaN, undefined, ""]
+  , output = [ ]
+falsyRemover( input ) === output
+```
 
-
-
-
-
-
-
-
-- compose()
-
- - see how you can use this magic at /test/units/composeExample-spec.js
-
-- splitArrayEvery()
-
- - (2, [1,2,3,4]) -> [[1,2],[3,4]]
-
- - (3, [1,2,3,4]) -> [[1,2,3],[4]]
-
-- tempConverterAPI.value('Integer').from('Fahrenheit').to('Celsius').done()
-
- - tempConverterAPI.value(65).from('Fahrenheit').to('Celsius').done() -> 18
-
- - tempConverterAPI.value(65).from('F').to('C').done() -> 18
-
- - tempConverterAPI.value(271).from('Kelvin').to('Fahrenheit').done() -> 18
-
- - tempConverterAPI.value(271).from('K').to('F').done() -> 18
+```javascript
+falsyRemover([10, 'ate', '', false]) // return [10, 'ate']
+falsyRemover(['false', 'null', 200]) // return ['false', 'null', 200]
+```
+------------------------------------------
 
 
+> **Get Index Of The Interger**
+
+```javascript
+var input  = [1,2,3,4]
+  , num    = 2
+  , output = [[1,2],[3,4]]
+splitArrayEvery(num, input) === output
+```
+
+```javascript
+splitArrayEvery(2, [1,2,3,4,5]) 	// return [[1,2],[3,4],[5]]
+splitArrayEvery(3, [1,2,3,4,5,6])   // return [[1,2,3],[4,5,6]]
+```
+------------------------------------------
+
+
+> **Temperature Converter (Kelvin/Fahrenheit/Celsius)**
+
+```javascript
+var input  = 271 
+  , from   = 'Kelvin'
+  , to     = 'Fahrenheit'
+  , output = 18
+tempConverterAPI.value(input).from(from).to(to).done() === output
+```
+
+```javascript
+tempConverterAPI.value(65).from('Fahrenheit').to('Celsius').done() //return 18
+tempConverterAPI.value(280).from('f').to('c').done() 			   //return 44
+tempConverterAPI.value(65).from('F').to('C').done()  			   //return 18
+// Short Cut Provided 
+tempConverterAPI.value(65).from('f').to('c').done()  			   //return 18
+// Not Case Sensitive
+```
+------------------------------------------
+
+
+> **Infinite Plus Function**
+
+```javascript
+var inputA = 2
+  , inputB = 3
+  , inputC = 5
+  , output = 10
+plus(inputA,inputB,inputC) === output
+```
+
+```javascript
+plus(5,5,5) 	  // return 15
+plus(10,10,10,10) // return 40
+```
+------------------------------------------
+
+> **Reapeat Tartget String For Number Of Times**
+```javascript
+var input  ='123'
+  , times  = 2
+  , output ='123123'
+repeatStringNumTimes(input, times) === output
+// will return empty string 
+// if times is less/equal than 0
+```
+
+```javascript
+repeatStringNumTimes("ab", 2) //return 'abab'
+repeatStringNumTimes("@#", 3) //return '@#@#@#'
+repeatStringNumTimes("@#", 0) //return ''
+repeatStringNumTimes("@#", -2) //return ''
+```
+------------------------------------------
+
+
+> **Factorialize**
+
+```javascript
+var input = 4
+  , output = 1*2*3*4
+factorialize(input) === output
+```
+
+```javascript
+factorialize(4)  // return 24
+factorialize(10) // return 3628800
+factorialize(20) // return 2432902008176640000
+```
+------------------------------------------
+
+
+> **Find Longest Word Length**
+
+```javascript
+var input  = 'How are you doing'
+  , target = 5
+findLongestWord( input ) === output
+```
+
+```javascript
+findLongestWord('Yo Hey') 			 // return 3
+findLongestWord('May I be with you') // return 4
+findLongestWord('123456 good') 		 // return 6
+```
+------------------------------------------
 
 
 
-- plus()
-
- - (2, 3, 5) -> 10
- 
- - (5, 5, 5) -> 15
-
- - (10,10,10, 5) -> 35
-
-- repeatStringNumTimes()
-
- - ("ab", 2) -> "abab"
- 
- - ("@#", 3) -> "@#@#@#"
-
-
-
-
-
-- factorialize()
-
- - (4) -> 1 x 2 x 3 x 4 -> 24
-
- - (2) -> 1 x 2 -> 2
-
-- findLongestWord()
-
- - "May the force be with you" -> 5
-
- - "How are you doing" -> 5
-
- - "Yo Hey" -> 3
-
-
-
-
-- falsyRemover()
-
- - ([7, "ate", "", false, 9]) -> [7, "ate", 9]
-
- - [false, null, 0, NaN, undefined, ""] -> [ ]
 
 - mutation()
  
@@ -216,17 +258,44 @@ getIndexOfInt([2, 5, 10]           , 15) // return 3
 
  - ["hello", "hey"] -> false
 
-- validZipcode()
+> **Get Index Of The Interger**
 
- - (48326) -> true
+```javascript
+```
 
- - (a4104) -> false
+```javascript
+```
+------------------------------------------
 
- - (12s) -> false
 
-- zip()
+ > **Check Valid Zipcode**
 
- - ([1,2,3], [2,3]) -> [1,2,3,2,3]
+```javascript
+var input  = '48326'
+  , output = true
+validZipcode( input ) === output
+```
 
- - (['a',2,3], [2,'3', false]) -> ['a',2,3,2,'3',false]
+```javascript
+validZipcode('48326') // return true
+validZipcode('a8326') // return false
+validZipcode('12s')   // return false
+```
+------------------------------------------
 
+
+> **Zip With Infinite Arguments**
+
+```javascript
+var inputA = ['a']
+  , inputB = ['b']
+  , inputC = ['c']
+  , output = ['a','b','c']
+zip(inputA, inputB, inputC) === output
+```
+
+```javascript
+zip([1,2,3], [4,5]) 	// return [1,2,3,4,5]
+zip([1,2,3], ['4','5']) // return [1,2,3,'4','5']
+```
+------------------------------------------
