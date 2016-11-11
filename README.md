@@ -8,7 +8,7 @@
 
 ## Functions
 
-> Goal: Get decimal Places
+> Get decimal Places
 
 ```javascript
 // You can put either String or Integer
