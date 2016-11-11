@@ -14,8 +14,8 @@
 ```javascript
 // You can put either String or Integer
 var input  = 5.5
-var output = 1
-decimalPlaces( input ) === output // return true
+  , output = 1
+decimalPlaces( input ) === output
 ```
 
 ```javascript
