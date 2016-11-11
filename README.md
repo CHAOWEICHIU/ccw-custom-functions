@@ -11,17 +11,13 @@ Get Decimal Point
 ```javascript
 decimalPlaces( )
 ```
-### decimalPlaces -> 
 
 ```javascript
-
-
 decimalPlaces('.05') -> 2
-
- decimalPlaces('25e-100') -> 100
-
- decimalPlaces('100') -> 0
+decimalPlaces('25e-100') -> 100
+decimalPlaces('100') -> 0
 ```
+
 - compose()
 
  - see how you can use this magic at /test/units/composeExample-spec.js
