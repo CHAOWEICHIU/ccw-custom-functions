@@ -60,10 +60,7 @@ confirmEnding("Open sesame", "Sama") // return false
 ------------------------------------------
 
 
-
-
-> Palindrome 
-> A palindrome is a word, phrase which reads the same backward or forward
+> **A word, phrase which reads the same backward or forward**
 
 ```javascript
 var input  = 'eye'
@@ -76,7 +73,27 @@ palindrome('eye') 								// true
 palindrome('race car')							// true
 palindrome('A man, a plan, a canal. Panama')  	// true
 
-```> Get Decimal Point
+```
+------------------------------------------
+
+
+> **Cutting Off Targeting String and Replace With ...**
+
+```javascript
+var input  = 'I have a lot to say!' 
+  , output = 'I have a lot to ...'
+truncateString(input, 16) === output
+```
+
+```javascript
+truncateString("how are you", 2) // return ho ...
+truncateString("how are you", 5) // return how a ...
+
+```
+------------------------------------------
+
+
+> Get Decimal Point
 
 ```javascript
 
@@ -84,7 +101,11 @@ palindrome('A man, a plan, a canal. Panama')  	// true
 
 ```javascript
 
-```> Get Decimal Point
+
+```
+------------------------------------------
+
+> Get Decimal Point
 
 ```javascript
 
@@ -92,40 +113,9 @@ palindrome('A man, a plan, a canal. Panama')  	// true
 
 ```javascript
 
-```> Get Decimal Point
-
-```javascript
 
 ```
-
-```javascript
-
-```> Get Decimal Point
-
-```javascript
-
-```
-
-```javascript
-
-```> Get Decimal Point
-
-```javascript
-
-```
-
-```javascript
-
-```> Get Decimal Point
-
-```javascript
-
-```
-
-```javascript
-
-```
-
+------------------------------------------
 
 
 
@@ -195,11 +185,7 @@ palindrome('A man, a plan, a canal. Panama')  	// true
 
  - "Yo Hey" -> 3
 
-- truncateString()
 
- - ("how are you", 2) -> ho ...
-
- - ("how are you", 5) -> how a ...
 
 - getIndexOfInt()
  
