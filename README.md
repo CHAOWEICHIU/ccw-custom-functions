@@ -15,6 +15,7 @@
 // You can put either String or Integer
 var input  = 5.5
   , output = 1
+  
 decimalPlaces( input ) === output
 ```
 
