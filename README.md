@@ -7,15 +7,19 @@
 - In order to show the evidence, please write your own test as well to see if those custom functions would act the way that you expect to do. ^_^ 
 
 ## Functions
-Get Decimal Point
+
 ```javascript
-decimalPlaces( )
+
+decimalPlaces( ) // You can put either String or Integer
 ```
 
 ```javascript
-decimalPlaces('.05') 	  // return 2
-decimalPlaces('25e-100')  // return 100
 decimalPlaces('100') 	  // 0
+decimalPlaces('.05') 	  // return 2
+decimalPlaces(.05) 	      // return 2
+decimalPlaces('25e-100')  // return 100
+
+
 ```
 
 - compose()
