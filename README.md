@@ -250,20 +250,16 @@ findLongestWord('123456 good') 		 // return 6
 ------------------------------------------
 
 
-
-
-- mutation()
- 
- - ["floor", "for"] -> true
-
- - ["hello", "hey"] -> false
-
-> **Get Index Of The Interger**
+> **Partially Match**
 
 ```javascript
+var input  = ["floor", "for"]
+  , output = true
+mutation( input ) === output
 ```
 
 ```javascript
+mutation(["hello", "hey"]) // return fasle
 ```
 ------------------------------------------
 
