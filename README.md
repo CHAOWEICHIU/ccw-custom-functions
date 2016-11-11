@@ -93,15 +93,6 @@ truncateString("how are you", 5) // return how a ...
 ------------------------------------------
 
 
-
-
- ('I fucking love you') -> 'I love you'
-
- 
-
-
-
-
 > **Remove Curse Words**
 
 ```javascript
@@ -116,8 +107,6 @@ removeCurseWords('fuck you') // return 'you'
 ------------------------------------------
 
 
-
-
 > Get Index Of The Interger
 
 ```javascript
@@ -128,13 +117,15 @@ getIndexOfInt(input, target) === output
 ```
 
 ```javascript
-getIndexOfInt([10, 20, 30, 40, 50], 30)) // return 2
-getIndexOfInt([2, 20, 10], 19) // return 2
-// Will sort the Array first, then find the index of target
-getIndexOfInt([40, 60], 50)
-// will return bigger number if the distance from two number are the same
-getIndexOfInt([2, 5, 10]          , 15)) // return 3
-// will return Array.length + 1 if target is bigger than any number in array
+getIndexOfInt([10, 20, 30, 40, 50], 30)) 			// return 2
+getIndexOfInt([2, 20, 10]          , 19)    		// return 2
+// Will Sort the Array, 
+// then find the index of target
+getIndexOfInt([40, 60]			   , 50)    		// return 1
+// will favor bigger number
+getIndexOfInt([2, 5, 10]           , 15)) 			// return 3
+// will return (Array.length + 1) 
+// if target is bigger than any number in array
 
 ```
 ------------------------------------------
