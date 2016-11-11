@@ -9,7 +9,7 @@
 ## Functions
 
 
-> Get Decimal Point
+> **Get Decimal Point**
 
 ```javascript
 // You can put either String or Integer
@@ -25,7 +25,7 @@ decimalPlaces('25e-100')  // return 100
 ------------------------------------------
 
 
-> Make String A Title Case String
+> **Make String A Title Case String**
 
 ```javascript
 toTitleCase( )
