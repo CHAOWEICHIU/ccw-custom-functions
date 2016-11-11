@@ -46,9 +46,9 @@ toTitleCase('hoW aRe yOU') // return 'How Are You'
 
 ```javascript
 // case sensitive
-var confirmingString  = 'ABCDE'
-  , confirmingWords   = 'DE'
-  , output = true
+var confirmingString  = '12345'
+  , confirmingWords   = '45'
+  , output            = true
 confirmEnding(confirmingString,confirmingWords) === output
 ```
 
@@ -60,13 +60,21 @@ confirmEnding("Open sesame", "Sama") // return false
 ------------------------------------------
 
 
-> Get Decimal Point
+
+
+> Palindrome 
+> A palindrome is a word, phrase which reads the same backward or forward
 
 ```javascript
-
+var input  = 'eye'
+  , output = true
+palindrome( input ) === output
 ```
 
 ```javascript
+palindrome('eye') 								// true
+palindrome('race car')							// true
+palindrome('A man, a plan, a canal. Panama')  	// true
 
 ```> Get Decimal Point
 
@@ -122,7 +130,11 @@ confirmEnding("Open sesame", "Sama") // return false
 
 
 
+- removeCurseWords()
 
+ - ('I fucking love you') -> 'I love you'
+
+ - this is a curry version of filter, please see /tests/units/filterWords-curry-spec.js for how you can use this
 
 
 
@@ -161,23 +173,13 @@ confirmEnding("Open sesame", "Sama") // return false
 
 - repeatStringNumTimes()
 
- - ("ab", 2) -> ''abab"
+ - ("ab", 2) -> "abab"
  
  - ("@#", 3) -> "@#@#@#"
 
-- removeCurseWords()
 
- - ('I fucking love you') -> 'I love you'
 
- - this is a curry version of filter, please see /tests/units/filterWords-curry-spec.js for how you can use this
 
-- palindrome()
-
- - "eye" -> true
-
- - "race car" -> true
-
- - "A man, a plan, a canal. Panama" -> true
 
 - factorialize()
 
