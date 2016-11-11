@@ -310,16 +310,19 @@ zip([1,2,3], ['4','5']) // return [1,2,3,'4','5']
 
 ## About me
 
-> I am a freelance full-stack web developer, and I get so 
+> :fire: I am a freelance full-stack web developer, and I get so 
 excited whenever there is a chance that I can challenge
 myself and become a better software developer.
 
-> Test Nerd
+
+> :fire: Test Nerd
 Few months age, I have exposed to TDD(test-driven development) way
 of writing a software. Since then, I have fallen in love with that.
 I was inspired by [MPJ](https://www.youtube.com/watch?v=TWBDa5dqrl8)
 and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
+
+------------------------------------------
 > Extra
 [Declarative Style](https://github.com/CHAOWEICHIU/functional-javascript)
 :thumbsup: Code that can be repeatedly used with little effort
