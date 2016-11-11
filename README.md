@@ -12,12 +12,15 @@
 
 ```javascript
 
+
 // You can put either String or Integer
 decimalPlaces( ) 
+
 
 ```
 
 ```javascript
+
 
 decimalPlaces('100') 	  // 0
 decimalPlaces('.05') 	  // return 2
