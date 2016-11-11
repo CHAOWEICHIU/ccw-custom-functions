@@ -8,6 +8,7 @@
 
 ## Functions
 
+
 > Get Decimal Point
 
 ```javascript
@@ -21,6 +22,101 @@ decimalPlaces('.05') 	  // return 2
 decimalPlaces(.05) 	      // return 2
 decimalPlaces('25e-100')  // return 100
 ```
+
+
+> Make String A Title Case String
+
+```javascript
+toTitleCase( )
+```
+
+```javascript
+toTitleCase('how are you') // return 'How Are You'
+toTitleCase('hoW aRe yOU') // return 'How Are You'
+```
+
+
+> Confirm Ending Word/Words
+
+```javascript
+// case sensitive
+confirmEnding('Checking String','Confirming Word/Words')
+```
+
+```javascript
+confirmEnding("Good morning", "g")   // return true
+confirmEnding("Open sesame", "same") // return true
+confirmEnding("Open sesame", "Sama") // return false
+```
+
+
+
+> Get Decimal Point
+
+```javascript
+
+```
+
+```javascript
+
+```> Get Decimal Point
+
+```javascript
+
+```
+
+```javascript
+
+```> Get Decimal Point
+
+```javascript
+
+```
+
+```javascript
+
+```> Get Decimal Point
+
+```javascript
+
+```
+
+```javascript
+
+```> Get Decimal Point
+
+```javascript
+
+```
+
+```javascript
+
+```> Get Decimal Point
+
+```javascript
+
+```
+
+```javascript
+
+```> Get Decimal Point
+
+```javascript
+
+```
+
+```javascript
+
+```
+
+
+
+
+
+
+
+
+
 
 - compose()
 
@@ -42,15 +138,9 @@ decimalPlaces('25e-100')  // return 100
 
  - tempConverterAPI.value(271).from('K').to('F').done() -> 18
 
-- toTitleCase()
 
-  - "how are you" -> "How Are You"
 
-- confirmEnding()
- 
- - ("Good morning", "g") -> true
 
- - ("Open sesame", "same") -> true
 
 - plus()
 
