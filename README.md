@@ -15,6 +15,8 @@
 // You can put either String or Integer
 decimalPlaces( ) 
 ```
+---
+
 
 ```javascript
 decimalPlaces('100') 	  // 0
