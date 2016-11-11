@@ -10,14 +10,14 @@ Moreover, feel free to email me if I can help you to
 write robust functions to can make the world a better
 place!!
 
-> Found Issue?  chaoweichiu@gmail.com
-
 
 > **TEST?**
 
 ```
 npm test
 ```
+
+> Found Issue?  chaoweichiu@gmail.com
 
 
 ## DEMO
