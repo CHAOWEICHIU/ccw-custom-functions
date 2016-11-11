@@ -8,6 +8,7 @@
 
 ## Functions
 ### decimalPlaces -> Get Decimal Point
+<Enter>
 ```javascript
 - decimalPlaces()
 
