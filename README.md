@@ -19,7 +19,6 @@ npm test
 
 > Found Issue/Need my help?  chaoweichiu@gmail.com
 
-
 ## DEMO
 > **Get Decimal Point**
 
