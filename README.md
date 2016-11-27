@@ -1,12 +1,12 @@
-## Custom Functions Library 
+## Custom Functions Library
 
 This is a place where you can find **robust functions**
 that **have been tested** by myself before I present to
-you. You can write your own test, and try those out 
-to see if would work the way you expected. I would 
+you. You can write your own test, and try those out
+to see if would work the way you expected. I would
 love to have your feedback on that.
 
-Moreover, feel free to email me if I can help you to 
+Moreover, feel free to email me if I can help you to
 write robust functions to can make the world a better
 place!!
 
@@ -92,7 +92,7 @@ palindrome('A man, a plan, a canal. Panama')  	// true
 > **Cutting Off String and Replace With ...**
 
 ```javascript
-var input  = 'I have a lot to say!' 
+var input  = 'I have a lot to say!'
   , output = 'I have a lot to ...'
 truncateString(input, 16) === output
 ```
@@ -131,12 +131,12 @@ getIndexOfInt(input, target) === output
 ```javascript
 getIndexOfInt([10, 20, 30, 40, 50],  30) // return 2
 getIndexOfInt([2, 20, 10]          , 19) // return 2
-// Will Sort the Array, 
+// Will Sort the Array,
 // then find the index of target
 getIndexOfInt([40, 60]			   , 50) // return 1
 // will favor bigger number
 getIndexOfInt([2, 5, 10]           , 15) // return 3
-// will return (Array.length + 1) 
+// will return (Array.length + 1)
 // if target is bigger than any number in array
 
 ```
@@ -177,7 +177,7 @@ splitArrayEvery(3, [1,2,3,4,5,6])   // return [[1,2,3],[4,5,6]]
 > **Temperature Converter (Kelvin/Fahrenheit/Celsius)**
 
 ```javascript
-var input  = 271 
+var input  = 271
   , from   = 'Kelvin'
   , to     = 'Fahrenheit'
   , output = 18
@@ -188,7 +188,7 @@ tempConverterAPI.value(input).from(from).to(to).done() === output
 tempConverterAPI.value(65).from('Fahrenheit').to('Celsius').done() //return 18
 tempConverterAPI.value(280).from('f').to('c').done() 			   //return 44
 tempConverterAPI.value(65).from('F').to('C').done()  			   //return 18
-// Short Cut Provided 
+// Short Cut Provided
 tempConverterAPI.value(65).from('f').to('c').done()  			   //return 18
 // Not Case Sensitive
 ```
@@ -211,13 +211,13 @@ plus(10,10,10,10) // return 40
 ```
 ------------------------------------------
 
-> **Reapeat Tartget String For Number Of Times**
+> **Repeat Target String For Number Of Times**
 ```javascript
 var input  ='123'
   , times  = 2
   , output ='123123'
 repeatStringNumTimes(input, times) === output
-// will return empty string 
+// will return empty string
 // if times is less/equal than 0
 ```
 
@@ -312,7 +312,7 @@ zip([1,2,3], ['4','5']) // return [1,2,3,'4','5']
 
 > :fire: Full Stack Web Developer
 
-I am a freelance full-stack web developer, and I get so 
+I am a freelance full-stack web developer, and I get so
 excited whenever there is a chance that I can challenge
 myself and become a better software developer.
 
@@ -338,8 +338,8 @@ and [his video](https://www.youtube.com/watch?v=vqAaMVoKz1c)
 
 ```javascript
 var fruits = [
-	{ name: 'apple',  price: 5 }, 
-	{ name: 'orange', price: 10 }, 
+	{ name: 'apple',  price: 5 },
+	{ name: 'orange', price: 10 },
 	{ name: 'lemon',  price: 15 }
 ]
 ```
@@ -359,4 +359,3 @@ request('magicURL')
 ### [Food Recipes Application](https://github.com/CHAOWEICHIU/favorite-food-recipe)
 
 >It is an application where has all recipes around the world. You would be able to see what ingredient that you need, what steps that you need to take in order to make the dish.
-
