@@ -21,7 +21,8 @@
     "testdouble": "^1.9.0"
   },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "push": "git add . && git commit -m 'Edited README'  && git push origin master "
   },
   "repository": {
     "type": "git",
