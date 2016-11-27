@@ -119,7 +119,7 @@ removeCurseWords('fuck you') // return 'you'
 ------------------------------------------
 
 
-> **Get Index Of The Interger**
+> **Get Index Of The Integer**
 
 ```javascript
 var input  = [10, 20, 30, 40, 50]
@@ -158,7 +158,7 @@ falsyRemover(['false', 'null', 200]) // return ['false', 'null', 200]
 ------------------------------------------
 
 
-> **Get Index Of The Interger**
+> **Get Index Of The Integer**
 
 ```javascript
 var input  = [1,2,3,4]
