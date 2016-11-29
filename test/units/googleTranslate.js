@@ -4,7 +4,9 @@ const expect = require('chai').expect
 describe('google translate', ()=>{
   it('pass', (done)=>{
     let words = ['apple', 'orange']
+
     translate(words, (words)=>{
+      console.log(words)
       expect(words.length).to.equal(2)
       done()
     })

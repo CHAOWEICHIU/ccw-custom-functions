@@ -37,6 +37,16 @@ decimalPlaces('25e-100')  // return 100
 ```
 ------------------------------------------
 
+> **Google Translate**
+
+```javascript
+var input  = ['apple', 'orange']
+  , output = [ '蘋果', '橙子' ]
+translate(input, (translatedWords)=>{
+  expect(translatedWords).to.eql(output) // return true
+})
+```
+
 
 > **Make The String A Title Case String**
 
