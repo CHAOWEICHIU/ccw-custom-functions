@@ -8,7 +8,10 @@
   },
   "dependencies": {
     "chai": "^3.5.0",
+    "co": "^4.6.0",
+    "highland": "^2.10.1",
     "lodash": "^4.16.6",
+    "node-fetch": "^1.6.3",
     "promise": "^7.1.1",
     "underscore": "^1.8.3"
   },
