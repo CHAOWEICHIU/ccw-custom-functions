@@ -63,6 +63,13 @@ toTitleCase('hoW aRe yOU') // return 'How Are You'
 ------------------------------------------
 
 
+> **flatten array**
+
+```javascript
+flattenArray([1,2,3,[4]]) // return [1,2,3,4]
+flattenArray([1,2,3,[4,[5]]]) // return [1,2,3,4,5]
+```
+
 > **Confirm Ending Word/Words**
 
 ```javascript
