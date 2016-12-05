@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 const flattenArray = require('../../lib/custom_functions/flattenArray')
 
-describe('array', ()=>{
+describe('flattenArray', ()=>{
   let input, output
   beforeEach(()=>{
     input = ''
